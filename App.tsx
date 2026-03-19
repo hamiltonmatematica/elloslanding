@@ -200,7 +200,7 @@ const App: React.FC = () => {
                         className="inline-flex flex-col md:flex-row items-center gap-4 px-8 py-5 bg-ellos-green text-white rounded-2xl hover:bg-ellos-gold hover:text-ellos-green transition-all shadow-xl font-bold uppercase tracking-wider text-sm text-center"
                     >
                         <MessageCircle size={24} />
-                        Negocie diretamente com o nosso comercial e conheça o melhor plano para você
+                        <span><strong>Precisa de algo mais personalizado?</strong> Negocie diretamente com nosso comercial. Clique aqui!</span>
                     </a>
                 </div>
             </div>
