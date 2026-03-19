@@ -197,7 +197,7 @@ const App: React.FC = () => {
                         href="https://wa.me/5538984296852" 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="inline-flex flex-col md:flex-row items-center gap-4 px-8 py-5 bg-ellos-green text-white rounded-2xl hover:bg-ellos-gold hover:text-ellos-green transition-all shadow-xl font-bold uppercase tracking-wider text-sm text-center"
+                        className="inline-flex flex-col md:flex-row items-center gap-4 px-8 py-5 bg-ellos-gold text-ellos-green rounded-2xl hover:bg-ellos-green hover:text-white transition-all shadow-xl font-bold uppercase tracking-wider text-sm text-center"
                     >
                         <MessageCircle size={24} />
                         <span><strong>Precisa de algo mais personalizado?</strong> Negocie diretamente com nosso comercial. Clique aqui!</span>
