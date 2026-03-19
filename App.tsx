@@ -247,7 +247,7 @@ const App: React.FC = () => {
         <section id="contato" className="py-24 bg-stone-100 border-t border-stone-200">
            <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
-                    <h2 className="font-serif text-4xl text-ellos-green mt-4 mb-2">Fale conosco</h2>
+                    <h2 className="font-serif text-4xl text-ellos-green mt-4 mb-2">EQUIPE ELLOS 2026</h2>
                 </div>
                 
                 <div className="flex flex-col md:flex-row gap-8 justify-center items-center flex-wrap">
