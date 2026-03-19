@@ -191,6 +191,18 @@ const App: React.FC = () => {
                 </div>
                 
                 <PlanCards />
+                
+                <div className="mt-16 flex justify-center animate-fade-in-up">
+                    <a 
+                        href="https://wa.me/5538984296852" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="inline-flex flex-col md:flex-row items-center gap-4 px-8 py-5 bg-ellos-green text-white rounded-2xl hover:bg-ellos-gold hover:text-ellos-green transition-all shadow-xl font-bold uppercase tracking-wider text-sm text-center"
+                    >
+                        <MessageCircle size={24} />
+                        Negocie diretamente com o nosso comercial e conheça o melhor plano para você
+                    </a>
+                </div>
             </div>
         </section>
 
