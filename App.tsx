@@ -71,9 +71,7 @@ const App: React.FC = () => {
         <div className="container mx-auto px-6 flex justify-between items-center">
           <div className="flex items-center gap-2 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
              {/* Logo representation */}
-             <div className="text-2xl font-serif font-bold tracking-tight text-white">
-                <span className="text-ellos-gold">€</span>LLOS
-             </div>
+             <img src="/logo.png" alt="ELLOS Logo" className="h-8 md:h-10 object-contain" />
           </div>
           
           <div className={`hidden md:flex items-center gap-8 text-sm font-medium tracking-wide ${scrolled ? 'text-white/90' : 'text-white'}`}>
@@ -288,7 +286,7 @@ const App: React.FC = () => {
       <footer className="bg-ellos-green text-stone-400 py-12 border-t border-white/10">
         <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
             <div className="text-center md:text-left">
-                <div className="text-white font-serif font-bold text-3xl mb-2"><span className="text-ellos-gold">€</span>LLOS</div>
+                <img src="/logo.png" alt="ELLOS Logo" className="h-12 mb-4 mx-auto md:mx-0 object-contain" />
                 <p className="text-sm">Gestão, Automação e Treinamento</p>
             </div>
             <div className="flex flex-col items-center md:items-end gap-2">
