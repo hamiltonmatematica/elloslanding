@@ -105,11 +105,11 @@ const App: React.FC = () => {
           <div className="inline-block mb-6 px-4 py-1 border border-ellos-gold/50 text-ellos-gold text-xs tracking-[0.3em] uppercase font-bold rounded-full backdrop-blur-md bg-ellos-green/30">
             Gestão • Automação • Treinamento
           </div>
-          <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-medium leading-tight mb-8 drop-shadow-lg">
+          <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-medium leading-[1.1] mb-8 drop-shadow-lg [text-wrap:balance]">
             Sua conexão com <br/>
             <span className="text-ellos-gold italic">os melhores resultados</span>
           </h1>
-          <p className="max-w-2xl mx-auto text-lg md:text-xl text-stone-300 font-light leading-relaxed mb-12">
+          <p className="max-w-3xl mx-auto text-lg md:text-2xl text-stone-200 font-light leading-relaxed mb-12 [text-wrap:pretty]">
             Transforme de uma vez por todas a sua empresa e alavanque as suas vendas. Temos um plano para você.
           </p>
           
@@ -127,33 +127,33 @@ const App: React.FC = () => {
 
       <main>
         {/* Intro / Problem Statement */}
-        <section className="py-20 bg-white">
+        <section className="py-32 bg-white">
           <div className="container mx-auto px-6">
-            <div className="max-w-4xl mx-auto text-center space-y-6">
-              <h2 className="text-3xl md:text-4xl font-serif text-ellos-green mb-8 leading-tight">
+            <div className="max-w-5xl mx-auto text-center space-y-8">
+              <h2 className="text-3xl md:text-5xl font-serif text-ellos-green mb-10 leading-tight [text-wrap:balance]">
                 Equipe ineficaz em vendas e atendimentos?
                 <br />
-                <span className="text-stone-500 text-2xl md:text-3xl mt-4 block font-normal">Metas pouco claras e recursos mal gerenciados para alcançar seus objetivos?</span>
-                <span className="text-stone-500 text-2xl md:text-3xl mt-4 block font-normal">Procura tecnologias e automação para otimizar o funcionamento da sua empresa?</span>
+                <span className="text-stone-500 text-2xl md:text-3xl mt-8 block font-normal leading-snug">Metas pouco claras e recursos mal gerenciados para alcançar seus objetivos?</span>
+                <span className="text-stone-500 text-2xl md:text-3xl mt-6 block font-normal leading-snug">Procura tecnologias e automação para otimizar o funcionamento da sua empresa?</span>
               </h2>
-              <div className="w-24 h-1 bg-ellos-gold mx-auto mb-8"></div>
-              <h3 className="font-serif text-3xl font-bold text-ellos-green mt-8">A Ellos tem um plano para você!</h3>
-              <p className="text-xl text-ellos-green font-medium mt-4">
+              <div className="w-24 h-1 bg-ellos-gold mx-auto mb-10 rounded-full"></div>
+              <h3 className="font-serif text-4xl font-bold text-ellos-green mt-10">A Ellos tem um plano para você!</h3>
+              <p className="text-2xl text-ellos-green font-medium mt-6 [text-wrap:balance]">
                  A Ellos representa a aliança perfeita entre <span className="font-bold text-ellos-gold">GESTÃO, AUTOMAÇÃO E TREINAMENTO</span>
               </p>
               
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 text-left">
-                <div className="bg-ellos-light p-6 rounded-2xl border border-stone-200 shadow-sm">
-                   <h4 className="font-bold text-ellos-green mb-2 uppercase tracking-wide">Gestão</h4>
-                   <p className="text-stone-600 text-sm">Organize a GESTÃO e os fluxos da sua empresa e tenha todo o seu planejamento estrutural e financeiro sob controle.</p>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-20 text-left">
+                <div className="bg-ellos-light p-10 rounded-3xl border border-stone-200/60 shadow-sm hover:shadow-xl transition-all duration-300">
+                   <h4 className="font-bold text-ellos-green text-lg mb-4 uppercase tracking-wider">Gestão</h4>
+                   <p className="text-stone-600 text-base leading-relaxed">Organize a GESTÃO e os fluxos da sua empresa e tenha todo o seu planejamento estrutural e financeiro sob controle.</p>
                 </div>
-                <div className="bg-ellos-light p-6 rounded-2xl border border-stone-200 shadow-sm">
-                   <h4 className="font-bold text-ellos-green mb-2 uppercase tracking-wide">Automação</h4>
-                   <p className="text-stone-600 text-sm">Estruture uma AUTOMAÇÃO perfeita, inteligente, e diminua os custos operacionais, oferecendo atendimento rápido, preciso e satisfação aos clientes.</p>
+                <div className="bg-ellos-light p-10 rounded-3xl border border-stone-200/60 shadow-sm hover:shadow-xl transition-all duration-300">
+                   <h4 className="font-bold text-ellos-green text-lg mb-4 uppercase tracking-wider">Automação</h4>
+                   <p className="text-stone-600 text-base leading-relaxed">Estruture uma AUTOMAÇÃO perfeita, inteligente, e diminua os custos operacionais, oferecendo atendimento rápido, preciso e satisfação aos clientes.</p>
                 </div>
-                <div className="bg-ellos-light p-6 rounded-2xl border border-stone-200 shadow-sm">
-                   <h4 className="font-bold text-ellos-green mb-2 uppercase tracking-wide">Treinamento</h4>
-                   <p className="text-stone-600 text-sm">Prepare a sua equipe para o futuro, com TREINAMENTO em atendimento, uso de I.A. e vendas em alto nível.</p>
+                <div className="bg-ellos-light p-10 rounded-3xl border border-stone-200/60 shadow-sm hover:shadow-xl transition-all duration-300">
+                   <h4 className="font-bold text-ellos-green text-lg mb-4 uppercase tracking-wider">Treinamento</h4>
+                   <p className="text-stone-600 text-base leading-relaxed">Prepare a sua equipe para o futuro, com TREINAMENTO em atendimento, uso de I.A. e vendas em alto nível.</p>
                 </div>
               </div>
             </div>
@@ -161,12 +161,13 @@ const App: React.FC = () => {
         </section>
 
         {/* Core Services (GAT) */}
-        <section id="solucoes" className="py-24 bg-ellos-light relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-96 h-96 bg-ellos-gold/10 rounded-full blur-3xl -mr-20 -mt-20"></div>
+        <section id="solucoes" className="py-32 bg-ellos-light relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-ellos-gold/10 rounded-full blur-[100px] -mr-40 -mt-40"></div>
+            <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-ellos-green/5 rounded-full blur-[100px] -ml-40 -mb-40"></div>
             <div className="container mx-auto px-6 relative z-10">
-                <div className="text-center mb-16">
-                    <span className="text-xs font-bold tracking-widest text-stone-500 uppercase">NOSSOS PILARES</span>
-                    <h2 className="font-serif text-4xl text-ellos-green mt-2">Diferenciais Competitivos</h2>
+                <div className="text-center mb-20">
+                    <span className="text-sm font-bold tracking-[0.2em] text-stone-500 uppercase">Nossos Pilares</span>
+                    <h2 className="font-serif text-5xl text-ellos-green mt-4 [text-wrap:balance]">Diferenciais Competitivos</h2>
                 </div>
                 
                 <ServiceCards />
@@ -174,11 +175,13 @@ const App: React.FC = () => {
         </section>
 
         {/* Planos */}
-        <section id="planos" className="py-24 bg-stone-100 relative overflow-hidden">
+        <section id="planos" className="py-32 bg-stone-50 relative overflow-hidden">
             <div className="container mx-auto px-6 relative z-10">
-                <div className="text-center mb-16">
-                    <span className="text-xs font-bold tracking-widest text-ellos-gold uppercase py-1 px-3 bg-ellos-green rounded-full">PLANOS EXCLUSIVOS</span>
-                    <h2 className="font-serif text-4xl text-ellos-green mt-6 mb-4">Conheça nossos planos para revolucionar <br className="hidden md:block"/> o funcionamento da sua empresa</h2>
+                <div className="text-center mb-20">
+                    <span className="text-xs font-bold tracking-widest text-ellos-gold uppercase py-2 px-5 bg-ellos-green rounded-full shadow-md">Planos Exclusivos</span>
+                    <h2 className="font-serif text-4xl md:text-5xl text-ellos-green mt-8 mb-4 [text-wrap:balance]">
+                        Conheça nossos planos para revolucionar o funcionamento da sua empresa
+                    </h2>
                 </div>
                 
                 <PlanCards />
@@ -198,15 +201,16 @@ const App: React.FC = () => {
         </section>
 
         {/* Metrics & Results */}
-        <section id="resultados" className="py-24 bg-ellos-green text-white relative">
-            <div className="container mx-auto px-6">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <section id="resultados" className="py-32 bg-ellos-green text-white relative overflow-hidden">
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-ellos-gold/5 rounded-full blur-[120px] pointer-events-none"></div>
+            <div className="container mx-auto px-6 relative z-10">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
                     <div>
-                        <div className="inline-flex items-center gap-2 px-3 py-1 bg-white/10 text-ellos-gold text-xs font-bold tracking-widest uppercase rounded-full mb-6 border border-white/10">
-                            IMPACTO REAL
+                        <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 text-ellos-gold text-xs font-bold tracking-widest uppercase rounded-full mb-8 border border-white/10 backdrop-blur-sm">
+                            Impacto Real
                         </div>
-                        <h2 className="font-serif text-4xl md:text-5xl mb-6">Resultados para a sua empresa</h2>
-                        <div className="space-y-4 text-stone-300 text-lg pr-4">
+                        <h2 className="font-serif text-4xl md:text-6xl mb-10 leading-tight [text-wrap:balance]">Resultados <br/> para a sua empresa</h2>
+                        <div className="space-y-6 text-stone-300 text-lg pr-4 lg:pr-12">
                             <div className="flex items-start gap-4">
                                 <CheckCircle className="text-ellos-gold shrink-0 mt-1 w-5 h-5" />
                                 <p className="text-base border-b border-white/10 pb-3">Reduza em até <span className="text-white font-bold">75%</span> o tempo gasto pela sua equipe com tarefas repetitivas</p>
@@ -245,10 +249,11 @@ const App: React.FC = () => {
         </section>
 
         {/* Team / Contact */}
-        <section id="contato" className="py-24 bg-stone-100 border-t border-stone-200">
+        <section id="contato" className="py-32 bg-stone-50 border-t border-stone-200">
            <div className="container mx-auto px-6">
-                <div className="text-center mb-16">
-                    <h2 className="font-serif text-4xl text-ellos-green mt-4 mb-2">EQUIPE ELLOS 2026</h2>
+                <div className="text-center mb-20">
+                    <h2 className="font-serif text-4xl md:text-5xl text-ellos-green mt-4 mb-4">EQUIPE ELLOS 2026</h2>
+                    <div className="w-24 h-1 bg-ellos-gold mx-auto rounded-full"></div>
                 </div>
                 
                 <div className="flex flex-col md:flex-row gap-8 justify-center items-center flex-wrap">

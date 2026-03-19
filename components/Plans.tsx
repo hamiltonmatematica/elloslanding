@@ -94,7 +94,7 @@ export const PlanCards = () => {
       {plans.map((plan, index) => (
         <div 
           key={index} 
-          className={`relative rounded-3xl p-8 shadow-xl flex flex-col ${plan.color} ${plan.textColor} border ${plan.popular ? 'border-ellos-gold scale-105 z-10' : 'border-stone-200/50 hover:border-ellos-gold/30'}`}
+          className={`relative rounded-[2rem] p-10 shadow-[0_8px_30px_rgb(0,0,0,0.06)] flex flex-col ${plan.color} ${plan.textColor} border ${plan.popular ? 'border-ellos-gold scale-105 z-10' : 'border-stone-200/50 hover:border-ellos-gold/40 transition-colors duration-300'}`}
         >
           {plan.popular && (
             <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-ellos-gold text-ellos-green text-xs font-bold uppercase tracking-wider py-1 px-4 rounded-full">
@@ -104,17 +104,17 @@ export const PlanCards = () => {
           
           <div className="mb-4 flex items-center justify-between">
             <div>
-              <p className={`text-xs font-bold tracking-widest uppercase mb-1 ${plan.popular ? 'text-ellos-gold' : 'text-stone-500'}`}>
+              <p className={`text-[10px] font-bold tracking-[0.2em] uppercase mb-2 ${plan.popular ? 'text-ellos-gold' : 'text-stone-500'}`}>
                 {plan.name}
               </p>
-              <h3 className="font-serif text-2xl font-bold leading-tight">{plan.title}</h3>
+              <h3 className="font-serif text-3xl font-bold leading-tight pr-2 [text-wrap:balance]">{plan.title}</h3>
             </div>
             <div className={`p-3 rounded-xl ml-4 shrink-0 ${plan.popular ? 'bg-white/10' : 'bg-ellos-green/5'}`}>
               {plan.icon}
             </div>
           </div>
           
-          <p className={`text-sm mb-6 pb-6 border-b ${plan.popular ? 'border-white/10 text-stone-300' : 'border-stone-200 text-stone-600'}`}>
+          <p className={`text-base leading-relaxed mb-6 pb-6 border-b ${plan.popular ? 'border-white/10 text-stone-300' : 'border-stone-200 text-stone-500'}`}>
             {plan.description}
           </p>
           
@@ -123,8 +123,8 @@ export const PlanCards = () => {
               <div key={i} className="flex gap-3">
                 <Check className={`w-5 h-5 shrink-0 ${plan.popular ? 'text-ellos-gold' : 'text-ellos-green'}`} />
                 <div>
-                  <p className="font-bold text-sm leading-tight">{feature.name}</p>
-                  <p className={`text-xs mt-1 leading-relaxed ${plan.popular ? 'text-stone-300' : 'text-stone-500'}`}>
+                  <p className="font-bold text-base leading-tight">{feature.name}</p>
+                  <p className={`text-sm mt-1.5 leading-relaxed ${plan.popular ? 'text-stone-300' : 'text-stone-500'}`}>
                     {feature.desc}
                   </p>
                 </div>
@@ -160,7 +160,7 @@ export const PlanCards = () => {
               href="https://wa.me/5538984296852" 
               target="_blank" 
               rel="noopener noreferrer"
-              className={`mt-6 w-full py-3 rounded-full font-bold uppercase tracking-wider text-sm transition-all duration-300 text-center block ${
+              className={`mt-8 w-full py-4 rounded-xl font-bold uppercase tracking-widest text-sm transition-all duration-300 text-center block shadow hover:shadow-lg ${
                 plan.popular 
                   ? 'bg-ellos-gold text-ellos-green hover:bg-white' 
                   : 'bg-ellos-green text-white hover:bg-ellos-gold hover:text-ellos-green'
