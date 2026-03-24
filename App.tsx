@@ -313,6 +313,9 @@ const App: React.FC = () => {
                 <a href="https://instagram.com/ellos.gat" target="_blank" rel="noreferrer" className="text-white hover:text-ellos-gold transition-colors font-medium flex items-center gap-2">
                     @ellos.gat
                 </a>
+                <a href="https://wa.me/5538984366953" target="_blank" rel="noreferrer" className="text-white hover:text-ellos-gold transition-colors font-medium flex items-center gap-2">
+                    +55 38 98436-6953
+                </a>
                 <p className="text-xs text-stone-500">© 2024 ELLOS. Todos os direitos reservados.</p>
             </div>
         </div>
