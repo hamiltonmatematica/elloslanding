@@ -157,7 +157,7 @@ export const PlanCards = () => {
             </div>
             
             <a 
-              href="https://wa.me/5538984296852" 
+              href="https://wa.me/5538984366953" 
               target="_blank" 
               rel="noopener noreferrer"
               className={`mt-8 w-full py-4 rounded-xl font-bold uppercase tracking-widest text-sm transition-all duration-300 text-center block shadow hover:shadow-lg ${

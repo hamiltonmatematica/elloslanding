@@ -188,7 +188,7 @@ const App: React.FC = () => {
                 
                 <div className="mt-12 md:mt-16 flex justify-center animate-fade-in-up">
                     <a 
-                        href="https://wa.me/5538984296852" 
+                        href="https://wa.me/5538984366953" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="inline-flex flex-col sm:flex-row items-center gap-3 sm:gap-4 px-6 sm:px-8 py-4 sm:py-5 bg-ellos-gold text-ellos-green rounded-2xl sm:rounded-full hover:bg-ellos-green hover:text-white transition-all shadow-xl font-bold uppercase tracking-widest text-xs sm:text-sm text-center w-full md:w-auto"
@@ -282,14 +282,14 @@ const App: React.FC = () => {
                         name="Vitória Tupinambá" 
                         role="Operação Comercial"
                         area="Operação Comercial e Vendas"
-                        phone="38 98429-6852"
+                        phone="38 98436-6953"
                         delay="0.3s" 
                     />
                 </div>
 
                 <div className="mt-12 md:mt-16 flex justify-center animate-fade-in-up">
                     <a 
-                        href="https://wa.me/5538984296852" 
+                        href="https://wa.me/5538984366953" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="inline-flex flex-col sm:flex-row items-center gap-3 sm:gap-4 px-6 sm:px-8 py-4 sm:py-5 bg-ellos-gold text-ellos-green rounded-2xl sm:rounded-full hover:bg-ellos-green hover:text-white transition-all shadow-xl font-bold uppercase tracking-widest text-xs sm:text-sm text-center w-full md:w-auto"
